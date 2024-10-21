@@ -18,5 +18,14 @@
   },
   "license": "MIT",
   "author": "sya-ri",
-  "scripts": {}
+  "scripts": {
+    "check": "eslint .",
+    "fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "eslint": "^9.13.0",
+    "globals": "^15.11.0",
+    "typescript-eslint": "^8.10.0"
+  }
 }
