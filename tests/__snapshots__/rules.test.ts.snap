@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rules should export configs that refer to actual rules 1`] = `
+{
+  "all": {
+    "plugins": [
+      "aws-cdk",
+    ],
+    "rules": {
+      "aws-cdk/no-use-parent-construct": "error",
+    },
+  },
+  "flat/all": {
+    "plugins": {
+      "aws-cdk": ObjectContaining {
+        "meta": {
+          "name": "eslint-plugin-aws-cdk",
+          "version": Any<String>,
+        },
+      },
+    },
+    "rules": {
+      "aws-cdk/no-use-parent-construct": "error",
+    },
+  },
+  "flat/recommended": {
+    "plugins": {
+      "aws-cdk": ObjectContaining {
+        "meta": {
+          "name": "eslint-plugin-aws-cdk",
+          "version": Any<String>,
+        },
+      },
+    },
+    "rules": {
+      "aws-cdk/no-use-parent-construct": "error",
+    },
+  },
+  "recommended": {
+    "plugins": [
+      "aws-cdk",
+    ],
+    "rules": {
+      "aws-cdk/no-use-parent-construct": "error",
+    },
+  },
+}
+`;
