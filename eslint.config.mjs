@@ -5,11 +5,9 @@ import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended"
 import typescript from "typescript-eslint";
 
 export default typescript.config({
-  files: ["**/*.js", "**/*.ts"],
+  files: ["**/*.{js,mjs,cjs,ts}"],
+  ignores: ["dist/**/*"],
   extends: [
-    {
-      files: ["**/*.{js,mjs,cjs,ts}"],
-    },
     {
       languageOptions: {
         globals: globals.node,

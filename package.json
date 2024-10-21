@@ -20,6 +20,7 @@
   "license": "MIT",
   "author": "sya-ri",
   "scripts": {
+    "build": "tsc",
     "check": "eslint .",
     "fix": "eslint . --fix"
   },
